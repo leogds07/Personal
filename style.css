@@ -378,5 +378,37 @@ nav ul li a:hover::after{
     }
     *{
         align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #education .formal{
+        margin-bottom: 60px;
+    }
+    #certifications{
+        margin-top: 105px;
+    }
+    #certifications .title{
+        font-size: 50px;
+    }
+    #certifications .list li{
+        text-align: left;
+    }
+    #certifications .list .link{
+        font-size: 9px;
+    }
+    #footer .column1{
+        text-align: center;
+        margin-left: -150px;
+    }
+    #footer .column2{
+        display: none;
+    }
+    #footer .skills{
+        text-align: center;
+        margin-left: -170px;
     }
 }
