@@ -244,7 +244,7 @@ nav ul li a:hover::after{
 }
 
 #activities ul li strong{
-    animation: textcolor 7.5s infinite;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 #activities .sec1{
