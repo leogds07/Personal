@@ -384,12 +384,20 @@ nav ul li a:hover::after{
     body{
         margin: 0;
         padding: 0;
+        text-align: center;
+    }
+    #about .about-col-2{
+        width: 400px;
+        position: relative;
+        right: 38px;
     }
     #education .formal{
         margin-bottom: 60px;
     }
     #certifications{
         margin-top: 105px;
+        position: relative;
+        top: 60px;
     }
     #certifications .title{
         font-size: 50px;
