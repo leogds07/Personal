@@ -386,37 +386,84 @@ nav ul li a:hover::after{
         padding: 0;
         text-align: center;
     }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #about .about-col-2{
         width: 400px;
         position: relative;
-        right: 38px;
+        right: 10px;
+        margin-top: -100px;
+    }
+    #about .tab-titles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 25px;
+    }
+    #education{
+        margin-bottom: 80px;
     }
     #education .formal{
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+    }
+    #education .other{
+        text-align: center;
+    }
+    #activities .container{
+        text-align: center;
     }
     #certifications{
         margin-top: 105px;
         position: relative;
         top: 60px;
+        
     }
     #certifications .title{
         font-size: 50px;
+        text-align: center;
     }
     #certifications .list li{
-        text-align: left;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 17px;
     }
     #certifications .list .link{
         font-size: 9px;
     }
+    #footer .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer .row{
+        position: relative;
+        right: 100px;
+    }
     #footer .column1{
-        text-align: center;
-        margin-left: -150px;
+        margin-bottom: 25px;
+    }
+    #footer .column2 img{
+        display: unset;
+        margin-bottom: 35px;
+        position: relative;
+        left: -17px;
     }
     #footer .column2{
-        display: none;
+        position: relative;
+        right: -19px;
+        margin-top: -55px;
+    }
+    #footer .column2 button{
+        position: relative;
+        left: -18px;
     }
     #footer .skills{
         text-align: center;
-        margin-left: -170px;
+        position: relative;
+        right: -10px;
     }
 }
