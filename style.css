@@ -394,7 +394,7 @@ nav ul li a:hover::after{
     #about .about-col-2{
         width: 400px;
         position: relative;
-        right: 10px;
+        right: 25px;
         margin-top: -100px;
     }
     #about .tab-titles{
