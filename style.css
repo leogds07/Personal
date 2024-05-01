@@ -88,7 +88,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 70px;
     font-size: 30px;
     color: #046893;
 }
@@ -377,7 +377,7 @@ nav ul li a:hover::after{
 }
 
 
-@media (max-width:800px) {
+@media (max-width: 900px) {
     img{
         display: none;
     }
@@ -396,6 +396,15 @@ nav ul li a:hover::after{
         justify-content: center;
         align-items: center;
     }
+    #header{
+        margin: 0 0 -600px 0;
+    }
+    #header .header-text p{
+        display: none;
+    }
+    #header .header-text h1{
+        font-size: 2.64218rem;
+    }
     #about .about-col-2{
         width: 400px;
         position: relative;
@@ -407,7 +416,7 @@ nav ul li a:hover::after{
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 25px;
+        left: 30px;
     }
     #education{
         margin-bottom: 80px;
