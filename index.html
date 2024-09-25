@@ -1,183 +1,364 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Leonardo Giuliani de Santis</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="logo.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Student</p>
-                <h1>Hi, I'm <span>Leonardo</span><br>from Rome, Italy</h1>
-            </div>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
-    </div>
-    <!-----------------about------------->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="user.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About me</h1>
-                    <p>I'm from Rome, Italy and I was born on 11 May 2007.<br> I'm interested in various types of engineering, like aerospace, mechanical and software.<br> I'm hardworking and I have an excellent capacity in managing tasks and working in a team. I'm very ambitious and motivated.</p>
 
-                        <div class="tab-titles">
-                            <p class="tab-links"><a href="#education">Education</a></p>
-                            <p class="tab-links"><a href="#activities">Activities</a></p>
-                            <p class="tab-links"><a href="#certifications">Certifications</a></p>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-------------education----------->
-<div id="education">
-    <div class="container">
-        <h1 class="sub-title">My Education</h1>
-        <div class="container2">
-            <div class="list">
-                <ul>
-                    <div class="formal">
-                        <li class="title"><h2><strong>Formal Education</strong></h2></li>
-                        <li><strong>Middle School Diploma</strong> - 06/2021<br>Scuola Media Luigi Settembrini<br><em>Final Grade: 10</em></li>
-                        <li><strong>High School Diploma</strong> - Currently enrolled in 3rd year<br>Liceo Scientifico Amedeo Avogadro<br><em>Currently attending extra-time coursework in math and physics</em></li>
-                        <img src="class.jpg">
-                    </div>
-                    <div class="eng">
-                        <div class="eng-learning">
-                            <li class="title"><h2><strong>English Learning</strong></h2></li>
-                            <li><strong>Cambridge B2</strong> - 2022<br>British Council</li>
-                            <li><strong>Cambridge C1</strong> - Preparing for Exam<br>British Council</li>
-                        </div>
-                        <div class="college">
-                            <li class="title"><h2><strong>College</strong></h2></li>
-                            <li><strong>College (30 hrs)</strong> - Dublin, 07/2022<br><em>Level Achieved: B2<br>Course Performance: Excellent</em></li>
-                            <li><strong>College (35 hrs)</strong> - Miami, 07/2023<br><em>Level Achieved: C1<br></em></li>
-                        </div>
-                    </div>
-                    <div class="other">
-                        <li class="title"><h2><strong>Other</strong></h2></li>
-                        <li><strong>Certificate - Computer Science and Programming</strong> - 02/2024<br>Harvardx[CS50]</li>
-                        <li><strong>Diving Patent</strong> - 02/2024<br><em>Open Water Diver - Max Depth: 18m</em></li>
-                        <img src="coding.jpg">
-                    </div>
-                </ul>
-            </div>
-            <div class="img">
-                <img src="">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!------------activities----------->
-<div id="activities">
-    <div class="container">
-        <h1 class="title">My Activities</h1>
-        <div class="container2">
-            <div class="sec1">
-                <div class="sub-title2">
-                    <h2><strong>Sports</strong></h2>
-                </div>
-                <ul class="list">
-                    <li><strong>Swimming</strong> - 9 years (Current), Aquaniene</li>
-                    <li><strong>Rowing</strong> - 3 years, Circolo Canottieri Aniene</li>
-                    <li><strong>Competitive Rowing</strong> - 2 years, Circolo Canottieri Aniene</li>
-                    <li><strong>Skiing</strong> - 1 week per year, Dolomites</li>
-                    <li><strong>Karate</strong> - 2 years, Aquaniene</li>
-                    <li><strong>Gym</strong> - 1 year (Current), Aquaniene</li>
-                    <li><strong>Diving</strong> - 4 dives, Maldives</li>
-                </ul>
-            </div>
-            <div class="sec2">
-                <div class="sub-title2">
-                    <h2><strong>Side Hustles</strong></h2>
-                </div>
-                <ul class="list">
-                    <li>I had been <strong>reselling clothes and shoes</strong> for 2 years using StockX, SNKRS, Ebay, Vinted and a lot more.</li>
-                    <li>At the age of 15, I have <strong>built up a clothing brand</strong> called “Soulless”, leading the building process<br>of the website, the marketing (on social media) and the pricing. Spending just €5.00 on marketing and<br>€3 building the website using Shopify, I have made 5 sales reaching a €20 profit.</li>
-                </ul>
-            </div>
-            <img src="diving.JPG" class="img1">
-        </div>
-    </div>
-</div>
-
-
-<!-------------Certifications------------>
-<div id="certifications">
-    <div class="container">
-        <h1 class="title">Certifications and Awards</h1>
-        <div class="container2">
-            <ul class="list">
-                <li>I have received many awards in all of the sports I've practiced, especially<br>during 2 years of <strong>competitive rowing</strong></li>
-                <li class="right">I have received a <a href="https://courses.edx.org/certificates/2d19d01ef8e94bb88eb8e4a4f3079fae">certificate</a> the <strong>Harvardx [CS50]</strong> course.<br></li>
-                <li>I am currently attending 2 different courses: one about <strong>Python</strong><br>from Harvardx and one about <strong>Diplomacy</strong>, specifically the UN from Coursera.<br>I plan to finish both of them in 4 months.</li>
-                <li class="right">I recently received my <strong>diving patent</strong> from Padi. It is called "Open Water Diver", which lets me dive<br>to a maximum depth of 18 metres. I attended the course in Maldives in Februrary, 2024.</li>
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="contact.html" title="contact">Contact</a></li>
             </ul>
-        </div>
-    </div>
-</div>
+        </nav>
 
-<!----------Footer---------->
-<div id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <div class="column1">
-                    <div class="title">
-                        <h3><strong>Personal</strong></h3>
-                    </div>
-                    <div class="list">
-                        <ul>
-                            <li><strong>Leonardo Giuliani de Santis</strong></li>
-                            <li>Telephone: +39 392 064 7910</li>
-                            <li>E-mail: leogiulianidesantis@gmail.com</li>
-                            <li>Rome, Italy</li>
-                        </ul>
-                    </div>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I'm Leonardo.<br>
+                    I am a Student <br>
+                    based in Rome, Italy.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
                 </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
             </div>
-            <div class="column">
-                <div class="column2">
-                    <a class="img1" href="https://www.instagram.com/leo_giulianii/"><img src="insta.png" alt="instagram"></a>
-                    <a class="img2" href="https://www.linkedin.com/in/leonardo-giuliani-de-santis-4879bb285/"><img src="linkedin.png" alt="linkedin"></a>
-                    <a href="contact.html"><button>Contact me</button></a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="skills">
-                    <div class="title">
-                        <h3><strong>Skills</strong></h3>
-                    </div>
-                    <div class="list">
-                        <ul>
-                            <li>Attention to detail</li>
-                            <li>Organization</li>
-                            <li>Problem Solving</li>
-                            <li>Teamwork and Collaboration</li>
-                            <li>Python, HTML and CSS</li>
-                        </ul>
-                    </div>
-                </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.instagram.com/leo_giulianii/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/leonardo-giuliani-de-santis-4879bb285/"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/leogds07"><i class="im im-pinterest" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead">I was born in Rome, Italy in 2007. I am very passionate about engineering, particularly the mechanical and software branches, and I've done quite a few projects related to them. I've acquired all the necessary knowledge by myself browsing articles, watching YouTube videos and following courses.</p>
             </div>
         </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>My path</h3>
+
+                <p>I've started off by watching some videos about HTMl & CSS, and I practiced coding on VSC to create some simple websites.</p>
+
+                <p>I then moved on learning python (with the help of CS50 and CS50P), which I became very passionate about and, actually, quite good at: most of my software projects are done with it. Then, I also went on a course to learn ML languages, such as NumPy, Pandas, Matplotlib, Scikit... On the other hand, I also learned a lot about mechanical engineering: automotive in particular, as I'm quite passionate about cars. I acquired a lot of knowledge about cars architecture, especially focusing on the engine.</p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Python</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>70%</span></div>
+                    <strong>ML</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>60%</span></div>
+                    <strong>HTML&CSS</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>Mechanical Engineering - Engines</strong>
+                    </li>
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="CV-Leonardo-Giuliani-de-Santis.pdf" class="btn btn--primary full-width" download>Download My CV</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">July 2024</p>
+                            <h3>Tennis Club Parioli</h3>
+                            <h5>Assistant - Summer Camp</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>I led the soccer training of 10-15 kids twice a day and kept a large group of 40-50 kids organized while assisting the coach throughout the daily routine. Although it was a bit tough due to the extreme heat at midday, I esponentially improved my leader and organization skills.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>See My Latest Projects.</h1>
+                
+                <p class="lead"></p>
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" 
+                                    srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                New Turbocharger Model
+                            </h3>
+                            <p class="item-folio__cat">
+                                Mechanical Engineering
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Using a CAD software, I developed a new Turbocharger model that can both reduce turbo lag and raise max speed.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/lighthouse.jpg" 
+                                    srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Automatic Hotel Request
+                            </h3>
+                            <p class="item-folio__cat">
+                                Software Engineering
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Using Python, I developed a software that automatically sends e-mail booking requests to multiple hotels using APIs.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                    srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Fire Risk Analyzer
+                            </h3>
+                            <p class="item-folio__cat">
+                                Software Engineering
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Using Python, I developed a Software that analyzes multiple meteorological data and calculates the fire risk in a certain location, on certain date.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+    <section id="contact">
+        <div id="button">
+            <button><a href="contact.html">Contact Me</a></button>
+        </div>
+    </section>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
-</div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
